@@ -17,7 +17,7 @@ These arguments are as follows:
 
 - `--agent [DQN|A2C|PPO|random]`: Specifies the reinforcement learning agent to use. Defaults to DQN. Random will make entirely random selections.
 - `--net-arch [config1|config2|...]`: Specifies MLP network architectures as defined in `configurations.json.`. Defaults to the first architecture defined in that file.
-- `--train-steps [number]`: Specifies the number of training steps. Defaults to 10000.
+- `--train-steps [number]`: Specifies the number of training steps. Defaults to 10000. **It is recommended to use a smaller value here to merely test that you can run the project.**
 - `--evaluate`: Flag to run evaluation after training.
 
 ## Structure
